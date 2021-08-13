@@ -1,0 +1,18 @@
+<a (click)="place()">List Users</a><br />
+<p>userlist works!</p>
+<div id="main">
+  <table>
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>Name:</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users; let i=index">
+        <td>{{ i*i }}</td>
+        <td>{{ user }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

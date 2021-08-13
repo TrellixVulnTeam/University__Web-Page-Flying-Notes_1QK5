@@ -1,0 +1,84 @@
+/* TASK FORM */
+#main #taskForm input, main #taskForm textarea {
+    margin-bottom: 10px;
+}
+#main #taskForm span {
+    color: red;
+}
+.hidden {
+    display: none;
+}
+.red {
+    border: 1px solid red;
+    color: red;
+    margin-bottom: 10px;
+}
+.error {
+    box-shadow: 0 0 3px 1px #ff5555;
+}
+
+#taskForm #desc {
+    height: 3em;
+}
+
+/* TASK TABLE */
+
+#main #editable {
+    border-collapse: separate;
+    border-image-source: linear-gradient(white, #333);
+    border-style: solid;
+    border-width: 3px;
+    border-image-slice: 1;
+    display: inline-block;
+}
+#main #editable th{
+    border-bottom: #bbb solid 1px;
+}
+#main #editable td, main #editable th {
+    padding: 10px;
+}
+
+main table.controls {
+    border-collapse: separate;
+    border: 3px solid transparent;
+    display: inline-block;
+}
+
+img.icon {
+    height: calc(0.8em + 10px);
+    padding: calc(0.1em + 5px);
+    transition-property: height, top, right, padding;
+    transition-duration: 0.2s;
+}
+img.icon:hover {
+    height: calc(1em + 20px);
+    padding: 0;
+}
+
+img.rmIcon {
+    transform: rotate(0deg);
+    transition-property: height, top, right, transform, padding;
+    transition-duration: 0.2s;
+}
+img.rmIcon:hover {
+    transform: rotate(90deg);
+}
+.empty {
+    height: calc(1em + 20px);
+}
+
+.addRow {
+    height: 50px;
+    opacity: 0.5;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.addRow:hover{
+    opacity: 1;
+}
+
+textarea[placeholder=lorem] {
+    width: 150px;
+    height: 1em;
+}
