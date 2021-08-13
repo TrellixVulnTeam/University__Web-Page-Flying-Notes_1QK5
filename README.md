@@ -14,6 +14,7 @@ in its directory from terminal/command prompt.
 Note that you need to have node.js installed.
 #### Description
 A simple task to make two static websites. I have decided to make them with separate front-end (despite being one project) in order to try different technologies.
+All the HTML and CSS layout were also made 'by hand',  not using any tools. Haven't tried SASS/SCSS here yet.
 #### Side Notes
 This project actually contains TWO web pages;  
 Both of them share a common back-end with separate end points.  
